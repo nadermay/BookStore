@@ -1,3 +1,4 @@
-export const PORT = 10001;
+export const PORT = 5000;
 
-export const mongoDBREL='mongodb+srv://root:<db_password>@book-store.yhzdu.mongodb.net/?retryWrites=true&w=majority&appName=book-store '
+export const mongoDBREL=
+'mongodb+srv://admin-nader:admin-nader@book-store.yhzdu.mongodb.net/?retryWrites=true&w=majority&appName=book-store '
