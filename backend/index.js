@@ -4,6 +4,13 @@ import mongoose from 'mongoose';
 import booksRoute from './routes/booksRoute.js'
 
 const app = express();
+// creat the CORS for protction the API
+
+app.get('/', (req, res) => {
+    res.send('marhbe');
+});
+
+app.listen(3000, () => console.log('Server is running on port 3000'));
 
 // to call postmen(middleware for pressignrequest body)
 app.use(express.json());
